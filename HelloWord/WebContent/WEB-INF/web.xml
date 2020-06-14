@@ -1,0 +1,13 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.deepsingh44.blogspot.cont.First</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+</web-app>
